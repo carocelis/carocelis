@@ -1,0 +1,40 @@
+body {
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+.fa-female, .fa-folder-open, .fa-phone {
+  color: #18C29C;
+  font-size: 230%;
+}
+
+#home {
+  background: linear-gradient(rgba(57, 187, 144, 1), rgba(240, 128, 128, 0.5));
+  padding-top: 15%;
+  padding-bottom: 13%;
+  color: #031727;
+}
+
+#home h3 {
+  font-size: 500%;
+  padding-bottom: 8%;
+}
+
+.btn-go {
+  align-self:center;
+  background:transparent;
+  padding:0.1rem 1.2rem;
+  margin:0 1rem;
+  transition:all .5s ease;
+  color:#031727;
+  font-size:2rem;
+  letter-spacing:1px;
+  outline:none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.4);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border:solid 2px #031727;
+}
+
+.btn-go:hover {
+  box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.6);
+
+}
