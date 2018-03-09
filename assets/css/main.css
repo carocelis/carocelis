@@ -11,6 +11,7 @@ body {
   background: linear-gradient(rgba(57, 187, 144, 1), rgba(240, 128, 128, 0.5));
   padding-top: 15%;
   padding-bottom: 13%;
+  height: 100vh;
   color: #031727;
 }
 
@@ -37,4 +38,32 @@ body {
 .btn-go:hover {
   box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.6);
 
+}
+
+.about-me {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-right: 3%;
+  margin-top: 8%;
+}
+
+#about {
+  background-image: url(../images/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; 
+  height: 100vh;
+}
+
+.skills {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+
+.skill {
+  font-size: 300%;
 }
