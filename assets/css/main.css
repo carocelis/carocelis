@@ -8,6 +8,12 @@ body {
   color: #031727;
 }
 
+.icon-menu {
+  position: fixed;
+  font-size: 3rem;
+  color: white;
+}
+
 #me {
   margin-top: 20%;
 }
@@ -34,7 +40,8 @@ body {
 }
 
 .about-me {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255,255, 255, 0.1);
+  /*border-radius: 18px;*/
   padding-top: 1.5%;
   padding-bottom: 1%;
   margin-right: 3%;
@@ -51,7 +58,7 @@ body {
 }
 
 .skills {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   margin-right: 3%;
@@ -59,17 +66,15 @@ body {
 }
 
 .skill {
-  font-size: 450%;
+  font-size: 350%;
 }
 
 .contSkill {
   margin-top: 2.5%;
 }
 
-.icon-menu {
-  position: fixed;
-  font-size: 3rem;
-  color: white;
+.fa-chevron-down {
+  font-size: 4rem;
 }
 
 #projects {
@@ -78,5 +83,9 @@ body {
   color: #031727;
 }
 
+/*.card {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}*/
 
 
