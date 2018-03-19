@@ -9,13 +9,12 @@ body {
 }
 
 .icon-menu {
-  position: fixed;
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
 }
 
 #me {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .btn-go {
@@ -83,9 +82,5 @@ body {
   color: #031727;
 }
 
-/*.card {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}*/
 
 
