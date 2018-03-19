@@ -11,34 +11,63 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
-  <nav class="navbar navbar-light fixed-top" style="background-color: #031727;">
+  <!-- <nav class="navbar navbar-light fixed-top" style="background-color: #031727;">
     <div class="container-fluid">
       <a class="navbar-brand me" href="#">
         <img src="" width="40" height="40" class="d-inline-block align-top" alt="">
       </a>
-      <!--<ul class="nav justify-content-end">
+      <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a href="#"><i class="fas fa-female"></i>Sobre mí</a>
+          <a href="#">Sobre mí</a>
         </li>
         <li class="nav-item">
           
         </li>
         <li class="nav-item">
-          <a href="#"><i class="far fa-folder-open"></i>Proyectos</a>
+          <a href="#">Mis Proyectos</a>
         </li>
         <li class="nav-item">
-          <a href="#"><i class="fas fa-phone"></i><Contacto</a>
+          <a href="#">Contacto</a>
         </li>
-      </ul>-->
+      </ul>
       
     </div>
-  </nav>
+  </nav> -->
+
+  <!-- <a class="menu-bar" data-toggle="collapse" href="#menu">
+    <span class="bars"><i class="fas fa-bars"></i></span>            
+  </a>
+  <div class="collapse menu" id="menu">
+    <ul class="nav justify-content-end">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Works</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>   
+  </div> -->
   <section id="home">
     <div class="container-fluid text-center">
-      <div class="row">
-        <div class="col-12">
-          <h3>Carolina Celis</h3>
-          <button class="btn-go">Ir</button>
+      <!-- <div class="row">
+        <div class="col-1">
+          <a href="#menu" data-toggle="collapse" class="icon-menu"><i class="fas fa-bars"></i></a>
+        </div>
+      </div>
+      <div class="collapse menu" id="menu">
+        <ul class="nav justify-content-end">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>   
+      </div> -->
+      <div class="row align-items-center justify-content-center">
+        <div class="col-12 col-md-4">
+          <img id="me" src="assets/images/myAvatar (1).png" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-12 col-md-4">
+          <button class="btn-go">Sobre mí</button>
         </div>
       </div>
     </div>
@@ -46,52 +75,100 @@
   <section id="about">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-5 ml-auto about-me">
+        <div class="col-12 col-md-5 ml-auto about-me">
           <h3>Sobre mí</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur adipisci ipsam debitis voluptate suscipit saepe repellat in obcaecati ad, voluptatem reiciendis enim dolores doloremque, maxime minus laudantium. Odit, inventore.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus atque repellat eum quaerat quod placeat! Ducimus quos eius amet iure dolores numquam, exercitationem error, deleniti rerum, molestiae incidunt reiciendis! Harum.
+          <p>Soy Carolina Celis, desarrolladora front-end egresada de Laboratoria. Me gusta buscar soluciones a los desafíos y veo en la programación una oportunidad para imaginar, crear, desarrollar y plasmar las ideas y necesidades de este mundo que avanza a pasos agigantados. 
           </p>
         </div>
       </div>
       <div class="row">
-        <div class="col-5 ml-auto skills">
+        <div class="col-12 col-md-5 ml-auto skills">
           <h3>Habilidades</h3>
           <div class="row">
-            <div class="col-4"><i class="skill devicon-html5-plain-wordmark"></i></div>
-            <div class="col-4"><i class="skill devicon-css3-plain-wordmark"></i></div>
-            <div class="col-4"><i class="skill devicon-javascript-plain"></i></div>
+            <div class="col-4 contSkill text-center"><i class="skill devicon-html5-plain-wordmark"></i></div>
+            <div class="col-4 contSkill text-center"><i class="skill devicon-css3-plain-wordmark"></i></div>
+            <div class="col-4 contSkill text-center"><i class="skill devicon-javascript-plain"></i></div>
             
           </div>
           <div class="row">
-            <div class="col-6"><i class="skill devicon-jquery-plain-wordmark"></i></div>
-            <div class="col-6"><i class="skill devicon-bootstrap-plain-wordmark"></i></div>
-            
+            <div class="col-5 contSkill text-right"><i class="skill devicon-jquery-plain-wordmark"></i></div>
+            <div class="col-6 contSkill text-center"><i class="skill devicon-bootstrap-plain-wordmark"></i><div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section>
+  <section id="projects">
     <div class="container-fluid">
+      <h3>Mis proyectos</h3>
       <div class="row">
-        <div class="col-12">
-          
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
         </div>
-        <div class="col-2">
-          
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
         </div>
-        <div class="col-2">
-          
-        </div>
-        <div class="col-2">
-          
-        </div>
-        <div class="col-2">
-          
+        <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <section id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        
+      </div>
+    </div>
+  </section>
+  <footer>
+    
+  </footer>
 
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
