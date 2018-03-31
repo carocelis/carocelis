@@ -1,5 +1,5 @@
-$(".btn-go").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#about").offset().top
-    }, 1000);
-});
+// $(".btn-go").click(function () {
+//     $('html,body').animate({
+//         scrollTop: $("#about").offset().top
+//     }, 1000);
+// });

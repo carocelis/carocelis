@@ -24,11 +24,6 @@ nav div li a:hover {
   color: #031727;
 }
 
-/*.icon-menu {
-  font-size: 2rem;
-  color: white;
-}*/
-
 #me {
   margin-top: 55%;
 }
@@ -62,16 +57,6 @@ nav div li a:hover {
 
 }*/
 
-.about-me {
-  background-color: rgba(255,255, 255, 0.1);
-  /*border-radius: 18px;*/
-  padding-top: 1.5%;
-  padding-bottom: 1%;
-  margin-right: 3%;
-  margin-top: 3.5%;
-  font-size: 1.5rem;
-}
-
 #about {
   background-image: url(../images/teclado.JPG);
   background-repeat: no-repeat;
@@ -96,10 +81,6 @@ nav div li a:hover {
 .contSkill {
   margin-top: 2.5%;
 }
-
-/*.fa-chevron-down {
-  font-size: 4rem;
-}*/
 
 #projects {
   background: linear-gradient(to right, rgba(58, 97, 134, 0.7), rgba(137, 37, 62, 0.9));
